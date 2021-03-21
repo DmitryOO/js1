@@ -1,4 +1,6 @@
-'use strict'
+"use strict";
 
-alert(2);
+let a = 2;
+
+console.dir(typeof(null));
 
