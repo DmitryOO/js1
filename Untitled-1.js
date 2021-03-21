@@ -2,5 +2,5 @@
 
 let a = 2;
 
-console.dir(typeof(null));
+console.dir(typeof(2));
 
