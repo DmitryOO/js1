@@ -22,7 +22,7 @@ inputRub.addEventListener('input', () => {
         };
     });
     promise .then((result)=>{
-                    inputUsd.value = inputRub.value / result.usd;
+                    inputUsd.value = (inputRub.value / result.usd).toFixed(2);
                 })
             .catch(()=>console.log( "Что-то пошло не так!"));
 });
